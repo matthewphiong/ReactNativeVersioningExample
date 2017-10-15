@@ -4,7 +4,8 @@
 	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest"
+		"test": "jest",
+		"version": "react-native-version --never-amend"
 	},
 	"dependencies": {
 		"react": "16.0.0-beta.5",
@@ -14,6 +15,7 @@
 		"babel-jest": "21.2.0",
 		"babel-preset-react-native": "4.0.0",
 		"jest": "21.2.1",
+		"react-native-version": "https://github.com/gutstudio/react-native-version.git",
 		"react-test-renderer": "16.0.0-beta.5"
 	},
 	"jest": {
